@@ -1,0 +1,61 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.mapa ul {
+    list-style-type: none;
+}
+
+/* Vehículos */
+.vehiculo {
+    display: inline-block;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.vehiculo img {
+    width: 100%;
+    height: auto;
+}
+
+/* Sobre Nosotros */
+.accordion .card-header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.empleados .empleado {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}

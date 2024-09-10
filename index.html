@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionario de Carros</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY"></script>
+    <script src="mapa.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="vehiculos.html">Vehículos</a></li>
+                <li><a href="nosotros.html">Sobre Nosotros</a></li>
+                <li><a href="testdrive.html">Test Drive</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido al Concesionario</h1>
+        <div class="banner">
+            <!-- Banner de imágenes de vehículos -->
+            <img src="imagenes/carro1.jpeg" alt="Vehículo 1">
+            <img src="imagenes/carro2.jpeg" alt="Vehículo 2">
+            <img src="imagenes/carro3.jpeg" alt="Vehículo 3">
+            <img src="imagenes/carro4.jpeg" alt="Vehículo 4">
+            <img src="imagenes/carro1.jpeg" alt="Vehículo 5">
+        </div>
+        <div class="mapa">
+            <!-- Mapa con información de las sedes -->
+            <h1>Ubicación de nuestras sedes</h1>
+            <div id="map" style="height: 500px; width: 100%;"></div> <!-- Contenedor del mapa -->
+        </div>
+    </section>
+
+</body>
+</html>

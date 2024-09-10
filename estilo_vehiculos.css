@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#vehiculos {
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#vehiculos h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.buscador {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.buscador input {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.vehiculos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Estilos de las tarjetas de vehículos */
+.vehiculo {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+}
+
+.vehiculo img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.vehiculo h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.vehiculo p {
+    font-size: 0.9em;
+    margin: 10px 20px;
+    color: #555;
+}
+
+.vehiculo button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.vehiculo button:hover {
+    background-color: #0056b3;
+}
+
+.vehiculo button:focus {
+    outline: none;
+}
